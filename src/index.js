@@ -23,6 +23,7 @@ const createPagination = () => {
       bullets.forEach((bullet) => {
         bullet.classList.remove("swiper-pagination-bullet-active");
       });
+
       bullet.classList.add("swiper-pagination-bullet-active");
       const index = bullet.getAttribute("data-index");
       // console.log(index);
@@ -48,6 +49,9 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+// Virtual translate + loop
+// https://github.com/nolimits4web/swiper/issues/3070
 
 const handleBullets = (index) => {
   const bullets = document.querySelectorAll(".swiper-pagination-bullet");
