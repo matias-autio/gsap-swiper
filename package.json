@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "gsap": "npm:@gsap/business@^3.11.4",
+    "swiper": "^9.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "name": "gsap-swiper",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -r dist/",
+    "start": "parcel watch src/index.js",
+    "build": "parcel build src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kokku/timeline-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kokku/timeline-demo/issues"
+  },
+  "homepage": "https://github.com/Kokku/timeline-demo#readme"
+}
